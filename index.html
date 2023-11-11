@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Satisfaction and Well-being Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   <h1 id="title">Employee Satisfaction and Well-being Survey</h1>
+    <p id="description">Gathering feedback from customers to assess their satisfaction</p>
+     
+     <form id="survey-form">
+    <label id="name-label">First Name</label>
+    <input type="text" id="name" name="first name" required placeholder="Enter your first name"></input>
+
+    <label id="name-label">Last Name</label>
+    <input type="text" id="name" name="last name" required placeholder="Enter your last name"></input>
+
+
+    <label id="email-label">Email</label>
+    <input type="email" id="email" name="email"required placeholder="Enter your email">
+      </input>
+
+    <label id="number-label">Age</label>
+    <input type="number" id="number" name="age" min="18"
+       max= "110"required placeholder="Enter a number"></input>
+
+       <p>How did you hear about our company?</p>
+      <select id="dropdown">
+        <option value="option0">Select an option</option>
+        <option value="option1">Online search</option>
+        <option value="option2">Friend or family referral</option>
+        <option value="option3">Social media advertisement</option>
+    </select>
+
+    <p>Would you recommend our products/services to others?</p>
+    <div class="column-container">
+      <label for="yes">
+          <input type="radio" value="yes" name="choice" id="yes"> Yes
+      </label>
+      <label for="no">
+          <input type="radio" value="no" name="choice" id="no"> No
+      </label>
+      <label for="maybe">
+          <input type="radio" value="maybe" name="choice" id="maybe"> Maybe
+      </label>
+  </div>
+  
+  
+    
+    <p>Which of the following features or benefits are most important to you? (Check all that apply)</p>
+    <div class="column-container">
+    <label for="price">
+      <input type="checkbox" value="price" name="features" id="price"> Price
+  </label>
+  <label for="quality">
+      <input type="checkbox" value="quality" name="features" id="quality"> Quality
+  </label>
+  <label for="customer-support">
+      <input type="checkbox" value="customer support" name="features" id="customer-support"> Customer Support
+  </label>
+  <label for="sustainability">
+      <input type="checkbox" value="Sustainability" name="features" id="sustainability"> Sustainability
+  </label>
+  <label for="other">
+      <input type="checkbox" value="Other" name="features" id="other"> Other (Please specify below)
+  </label>
+</div>
+  <textarea required placeholder="Please specify features or benefits"></textarea>
+    
+   <button id="submit">Submit</button>
+     </form>
+    
+  </body>
+</html>
+
+
+
+
+
+
+

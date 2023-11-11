@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #a2adbe;
+    font-family: Arial, sans-serif;
+}
+
+
+#title {
+    text-align: center;
+    background-color: #0d1d36;
+    color: white;
+    padding: 10px;
+}
+
+
+#description {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+#survey-form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.column-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.column-container input[type="radio"],[type="checkbox"] {
+    margin-right: 15px;
+    margin-bottom: 1px; /* Add spacing between the input and label text */
+}
+
+/* Style the submit button */
+#submit {
+    display: block;
+    margin: 1em auto;
+    width: auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    color: white;
+    padding:0px 20px;
+}
+
+
+#submit:hover {
+    background-color: #555;
+}
+
+
+input, select, p, textarea {
+    margin-bottom: 10px;  
+}
